@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Utilities\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PTM.Models">
+      <HintPath>..\..\PTM.Models\PTM.Models\bin\Debug\netcoreapp2.1\PTM.Models.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
